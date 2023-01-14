@@ -1,0 +1,13 @@
+/* navbar*/
+
+.mainNav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .mainNav ul li {
+    list-style: none;
+    margin: 0 24px;
+    font-weight: bold;
+  }
