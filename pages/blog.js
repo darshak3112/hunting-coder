@@ -22,7 +22,7 @@ const blog = (props) => {
               </Link>
             </h2>
             <p className={inter.className}>
-              {blogitem.content.substr(0, 200)}
+              {blogitem.metadesc.substr(0, 200)}
             </p>
           </div>
         </div>
