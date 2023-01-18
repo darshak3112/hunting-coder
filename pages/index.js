@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -22,7 +21,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgWrapper}>
-          <Image src={'/homeimg.jpg'} className={styles.myImg} alt='home image' width={237} height={158} />
+          {/* <Image src={'/homeimg.jpg'} className={styles.myImg} alt='home image' width={237} height={158} /> */}
+          <img src={'/homeimg.jpg'} className={styles.myImg} alt='home image' width={237} height={158} />
         </div>
         <div className={styles.description}>
           <p>A blog for Hunting coders by a hunting coder</p>
